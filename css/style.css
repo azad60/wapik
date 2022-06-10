@@ -69,8 +69,8 @@ html{
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #fff;
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #6FB048;
 }
 .navbar-light .navbar-nav .nav-link:active {
   color: #fff;
@@ -87,9 +87,12 @@ html{
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   margin-left: 20px;
+  transition: .5s ease-in-out;
 }
 .btn:hover{
-  color: #fff;
+  color: #6FB048;
+  background: transparent;
+  border: 1px solid  #6FB048;
 }
 /* hiro content */
 .hiro_content{
@@ -119,6 +122,13 @@ html{
   border: none;
   margin-top: 15px;
   border-radius: 3px;
+  border: 1px solid  #6FB048;
+  transition: .5s ease-in-out;
+}
+.hiro_btn:hover{
+  color: #6FB048;
+  background: transparent;
+  border: 1px solid  #6FB048;
 }
 
 /* header section end here  */
@@ -368,6 +378,13 @@ html{
   font-weight: 500;
   border: none;
   border-radius: 3px;
+  border: 1px solid  #6FB048;
+  transition: .5s ease-in-out;
+}
+.download_content button:hover{
+  color: #6FB048;
+  background: transparent;
+  border: 1px solid  #6FB048;
 }
 /* download section end here  */
 /* footer section start here  */
