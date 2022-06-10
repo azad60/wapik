@@ -23,7 +23,7 @@ html{
 /* header section start here  */
 #header{
   padding-top: 20px;
-  background: url(/imges/hiro_bg.png);
+  background: url(../imges/hiro_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -265,7 +265,7 @@ html{
   font-family: 'Roboto', sans-serif; 
   padding: 120px 0;
   background-color: #EEF1EC !important;
-  background-image: url(/imges/wapik_bg_2.png);
+  background-image: url(../imges/wapik_bg_2.png);
   background-position:center right;
   background-repeat: no-repeat;
 }
@@ -346,7 +346,7 @@ html{
 /* help section end here  */
 /* download section start here  */
 #download{
-  background: url(/imges/wapik_bg_3.png);
+  background: url(../imges/wapik_bg_3.png);
   padding: 100px 0;
   font-family: 'Roboto', sans-serif;
 }
